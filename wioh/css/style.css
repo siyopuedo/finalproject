@@ -1,0 +1,487 @@
+/* helpers */
+
+.clear {
+	clear: both;
+	float: none;
+}
+
+.overflow {
+	overflow: auto;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+/* begin */
+
+body {
+	text-align: center;
+	font-size: 100%;
+	font-family: 'Monaco';
+	background-color: #eeabb2;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+/*header*/
+
+header {
+	width: 100%;
+	background-color: #bae0f3;
+	/*height: 500px;*/
+	/*position: fixed;*/
+	padding-bottom: 20px;
+}
+
+/* title & tagline */
+
+#tagline {
+	margin-top: 25px;
+}
+#tagline h1 {
+	font-size: 2.5em;
+	color: #9da43c;
+	font-weight: bold;
+}
+
+#tagline blockquote {
+	font-size: 0.9em;
+	color: #9da43c;
+	font-style: italic;
+}
+
+#tagline h1 blockquote {
+	margin: 20px;
+}
+
+.tools {
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	display: inline;
+	border: 4px solid #eeabb2;
+	box-shadow: 10px 10px 5px #eeabb2;
+	background-color: #bae0f3;
+	color: #000;
+	border-radius: 3px;
+	font-weight: 600;
+	padding: 5px;
+}
+
+.tools div:hover {
+	background-color: #eeabb2;
+}
+
+/* how it works */
+
+#hiw p {
+	margin-top: 7px;
+}
+
+/* city profile */
+
+#cityprofile form {
+	margin-top: 15px;
+}
+
+/*button*/
+
+button {
+	color: #000;
+	border-radius: 5px;
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 5px;
+	border: 4px solid #eeabb2;
+	box-shadow: 10px 10px 5px #000;
+	background-color: #bae0f3;
+	display: inline-block;
+	margin: 20px;
+}
+
+/*request a city*/
+
+#request form {
+	margin-top: 10px;
+}
+
+#prosubmess {
+	display: block;
+    font-size: 30px;
+    padding-top: 15px;
+	color: #807aba;
+}
+
+#cityreqmessage {
+	display: block;
+	font-size: 30px;
+	color: #807aba;
+}
+
+/*contact us*/
+
+#contact a {
+	margin-top: 5px;
+}
+
+/*about*/
+
+#about p {
+	margin-top: 10px;
+}
+
+#about img {
+	margin: 10px;
+}
+
+#about em {
+	color: #9da43c;
+}
+
+/* questions --> goes to questions.html */
+
+#snippit {
+	margin: 20px;
+}
+
+#snippit p {
+	margin: 5px;
+}
+
+/*map */
+#map {
+	background: url(../images/usamp.jpg) center no-repeat;
+    height: 700px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.intro {
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	padding: 5px 30px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: rgb(100,125,200);
+	width: 200px;
+}
+
+.profile {
+    border: 3px solid #eeacae;
+    width: 325px;
+    height: 100px;
+    margin: 15px;
+    background-color: #bbe0f3;
+    display: none;
+    position: absolute;
+}
+
+.profile img {
+	float: left;
+	padding-left: 5px;
+	padding-top: 5px;
+    width: 60px;
+}
+
+
+.profile ul {
+	float: left;
+    width: 215px;
+    margin: 0px 10px;
+    height: 65px;
+}
+
+.profile li {
+	float: left;
+	text-align: left;
+	font-size: 1.1em;
+	color: purple;
+	list-style-type: none;
+	font-style: italic;
+}
+
+.profile span {
+	font-weight: bolder;
+	text-transform: uppercase;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+
+.one,
+#profile1 {
+	top: 390px;
+    left: 240px;
+}
+
+.two, 
+#profile2 {
+	top: 255px;
+    left: 380px;
+}
+
+.three, 
+#profile3 {
+    top: 300px;
+    left: 485px;
+}
+
+.four,
+#profile4 {
+    top: 250px;
+    left: 795px;
+}
+
+.five, 
+#profile5 {
+	top: 165px;
+    left: 700px;
+}
+
+.six, 
+#profile6 {
+    top: 190px;
+    left: 1085px;
+}
+
+.seven, 
+#profile7 {
+    top: 60px;
+    left: 255px;
+}
+
+.eight, 
+#profile8 {
+    top: 410px;
+    left: 725px;
+}
+
+.pin {
+	width: 30px;
+	height: 50px;
+	background: url(../images/pin.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+
+/*info (below the map)*/
+#info {
+	margin-bottom: 50px;
+}
+
+#info h2 {
+	font-size: 2em;
+	margin-bottom: 15px;
+	margin-right: 275px;
+}
+
+#info ul {
+    width: 70%;
+    margin: 5px;
+    padding-left: 15px;
+    line-height: 30px;
+    float: left;
+}
+
+#info li {
+	display: inline;
+	font-size: 1.2em;
+	padding: 20px;
+	color: #9ea53d;
+}
+
+
+
+/*advetising*/
+aside {
+	float: right;
+	margin-right: 40px;
+	height: 150px;
+	padding: 10px;
+	width: 20%;
+}
+
+aside h4 {
+	padding-bottom: 10px;
+}
+
+aside p {
+	padding: 7px;
+}
+
+/*footer*/
+
+footer {
+	font-style: italic;
+	margin-top: 250px;
+	margin-bottom: 30px;
+	font-size: 1.5em;
+	color: #9da43c;
+}
+
+footer img {
+	width: 40px;
+}
+
+
+/* profiles sheet */
+
+.psumm {
+	height: 280px;
+	padding-top: 20px;
+}
+
+.psumm ul {
+	padding: 10px 0;
+}
+
+.psumm li {
+	font-size: 1.5em;
+	color: purple;
+	list-style-type: none;
+	font-style: italic;
+}
+
+.psumm span {
+	font-weight: bolder;
+	text-transform: uppercase;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+.blog {
+	color: #bae0f3;
+	margin: 130px 150px 50px;
+	font-size: 18px;
+}
+
+
+#questions {
+	font-size: 22px;
+	margin: 30px 0px;
+	color: #9da43c;
+}
+
+.anscolr {
+    color: #bae0f3;
+    margin: 10px 300px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+/* Registration Form */
+
+input, select {
+  font-family: 'Monaco';
+}
+
+ul li label {
+  display: inline-block;
+  width: 75px;
+  font-size: 16px;
+}
+
+ul li input[type="text"], input[type="email"], input[type="number"], select {
+  font-size: 16px;
+  width: 225px;
+  border: none;
+  border-bottom: 2px solid #121212;
+  background-color: #eeabb2;
+
+}
+
+#request ul li input[type="text"] {
+  font-size: 16px;
+  width: 150px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #121212;
+  background-color: #eeabb2;
+
+}
+
+
+/*responsive mobile */
+
+@media only screen and (max-width: 500px) {
+
+	header {    
+	    width: 85%;
+	}
+
+	#tagline .logo {
+		width: 20%;
+	}  
+
+	#tagline h1 {
+		width: 100%;
+		font-size: 3.6em;
+	}  
+
+	#tagline blockquote {
+	    width: 100%;
+	    text-align: center;
+	    margin-left: 5%;
+	}
+
+	#description {
+	    width: 75%;
+	    text-align: center;
+	    margin: 10%;
+	}
+
+	#hiw {
+	    width: 80%;
+	    text-align: center;
+	    margin: 5%;
+	}
+
+	#map {
+	    background: url(../images/usmapresponse.jpg) center no-repeat;
+	    height: 400px;
+	}
+
+	.profile {
+		width: 55%;
+		margin: 8%;
+		padding-right: 3%;
+	}  
+
+}
+
+
+	/*	 
+	#info {
+		
+		}
+
+	#cta {
+		
+		}
+		
+	footer {
+		
+		}
+
+
+
+	*/
+
+
+
+
+
+
+
+
